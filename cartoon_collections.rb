@@ -10,12 +10,10 @@ def summon_captain_planet(calls)
 end
 end
 
-def long_planeteer_calls(calls)
-  calls.include? do |call|
+def long_planeteer_calls(long_call)
+  long_call.each do |call|
   if
     true 
-  else 
-    false
  end
  end
 
