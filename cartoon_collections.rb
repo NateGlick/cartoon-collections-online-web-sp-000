@@ -12,7 +12,9 @@ end
 
 def long_planeteer_calls(calls)
   if calls.include?
-    
+    true 
+  else 
+    false
 end
 
 def find_the_cheese# code an argument here
