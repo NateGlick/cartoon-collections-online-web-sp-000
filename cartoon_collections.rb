@@ -11,7 +11,8 @@ end
 end
 
 def long_planeteer_calls(calls)
-  if calls.include?
+  calls.include? do |call|
+  if
     true 
   else 
     false
