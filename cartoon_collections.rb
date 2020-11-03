@@ -11,9 +11,10 @@ end
 end
 
 def long_planeteer_calls(long_call)
+  answer = false
   long_call.each do |call|
   if
-    true 
+    answer = true 
  end
  end
 
